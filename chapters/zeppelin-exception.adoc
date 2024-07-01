@@ -1,0 +1,15 @@
+[[zeppelin-specials]]
+= Appendix Z: Zeppelin specials - Diff to the original guidelines
+
+Guidelines for naming and designing resource paths and query parameters.
+
+
+[#???]
+== {MUST} tri-state booleans (NULL/false/true) are optional booleans
+
+In some cases we need to deal with tri-state boolean attributes, that can take three
+instead of two values: NULL, true, false.
+
+To avoid confusion and schema violations tri-state booleans must be defined as optional booleans:
+For parameters: `required` must always be `false`.
+For schema objects: They must be defined as optional `boolean`.
