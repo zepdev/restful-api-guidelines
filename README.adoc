@@ -3,7 +3,7 @@
 
 https://github.com/zalando/restful-api-guidelines/actions/[image:https://github.com/zalando/restful-api-guidelines/actions/workflows/build.yml/badge.svg[Build status]]
 Latest published version:
-http://zalando.github.io/restful-api-guidelines/[*HTML*],
+https://zepdev.github.io/restful-api-guidelines/[*zepdev.github.io/restful-api-guidelines*],
 
 == Purpose
 
